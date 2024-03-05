@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BackendController;
+use App\Http\Controllers\MasterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 Route::get('about',[AboutController::class,'contact']);
 Route::get('backend',[BackendController::class,'dashboard'])->name('dashboard');
+route::get('master',[MasterController::class,'master'])->name( 'master' );
