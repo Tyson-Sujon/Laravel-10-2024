@@ -20,6 +20,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('about',[AboutController::class,'contact']);
+Route::get('about',[AboutController::class,'contact'])->name('about');
 Route::get('backend',[BackendController::class,'dashboard'])->name('dashboard');
 route::get('master',[MasterController::class,'master'])->name( 'master' );
