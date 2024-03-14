@@ -1,4 +1,40 @@
-.LOG 
+.LOG
 video_Play_back --> 00:50:32
 4:12 PM 10-Mar-24
 video_Play_back --> 00:50:32 to end [ full complete recap plzz]
+10:41 AM 13-Mar-24
+video_Play_back --> 00:54:49 to end [ some issues]
+10:52 AM 13-Mar-24
+last show
+
+:00:55:31
+[catagorycontroller er categories function moddhe sob file view korbe
+]
+
+video_Play_back --> 01:04:00  [ some issues]
+Slug use kora hoi link beboharer jonno->URL er moddhe
+
+video_Play_back --> 01:07:00  [ some issues]
+{!!  !!} ->laravel kono html tag chara execute korte pare blade file e.
+
+video_Play_back --> 01:09:00  [ some issues]
+@CSRF -> <form></form> jeno link theke unothorize  access na kore sei jonno CSRF token required
+
+
+IMPORTENT
+jodi kono controller thakay page show korte hoi tobe controller function er view('') fuction e path ta hobe resource ->view ->er pore je kono file or folder ke mention korbe.
+
+
+01:02:20
+
+2:01 PM 14-Mar-24
+video_Play_back --> 01:03:51
+last update
+
+
+
+
+
+
+
+

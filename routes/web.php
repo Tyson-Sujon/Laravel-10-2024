@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BackendController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\MasterController;
 
 /*
@@ -23,3 +24,5 @@ Route::get('/', function () {
 Route::get('about',[AboutController::class,'contact'])->name('about');
 Route::get('backend',[BackendController::class,'dashboard'])->name('dashboard');
 route::get('master',[MasterController::class,'master'])->name( 'master' );
+route::get('view_category', [CategoryController::class, 'categories'] )-> name('viewcategory');
+route::get('add_category',[CategoryController::class,'AddCategory'])->name('addcategory');
