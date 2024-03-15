@@ -28,13 +28,11 @@ jodi kono controller thakay page show korte hoi tobe controller function er view
 01:02:20
 
 2:01 PM 14-Mar-24
+video name:dashboard integration & model
 video_Play_back --> 01:03:51
 last update
 
-
-
-
-
-
-
-
+11:56 AM 15-Mar-24
+video name:dashboard integration & model
+video_Play_back --> 01:12:56
+last update

@@ -257,7 +257,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                    <a href="{{ url('add_category') }}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Add Category</p>
                                     </a>
@@ -268,36 +268,6 @@
                                         <p>Trashed</p>
                                     </a>
                                 </li>
-                                {{-- <li class="nav-item">
-                                    <a href="pages/layout/fixed-sidebar.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Sidebar</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/layout/fixed-sidebar-custom.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Sidebar <small>+ Custom Area</small></p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/layout/fixed-topnav.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Navbar</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/layout/fixed-footer.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Footer</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/layout/collapsed-sidebar.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Collapsed Sidebar</p>
-                                    </a>
-                                </li> --}}
                             </ul>
                         </li>
                         <li class="nav-item">
