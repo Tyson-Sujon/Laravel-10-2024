@@ -42,7 +42,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="Slug">Slug</label>
-                                            <input type="text" class="form-control" id="Slug" placeholder="Slug"
+                                            <input type="text" class="form-control" id="Slug" placeholder="Add Slug"
                                                 name="f_slug">
                                         </div>
 
