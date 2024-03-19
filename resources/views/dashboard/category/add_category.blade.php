@@ -32,18 +32,20 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
+
+                                {{-- action="{{ url('view_category') }}" --}}
                                 <form action="{{ url('view_category') }}" method="post">
                                     @csrf
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="add_category">category name</label>
                                             <input type="text" class="form-control" id="cat_name"
-                                                placeholder="Add category" name="f_add">
+                                                placeholder="Add category" name="category_name">
                                         </div>
                                         <div class="form-group">
                                             <label for="Slug">Slug</label>
                                             <input type="text" class="form-control" id="Slug" placeholder="Add Slug"
-                                                name="f_slug">
+                                                name="slug">
                                         </div>
 
                                         <div class="form-check">

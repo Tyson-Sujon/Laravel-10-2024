@@ -1,0 +1,17 @@
+run laravel server
+-> php artisan ser
+
+Live migration project tabels
+->php artisan migrate
+
+migration project tabels status
+->php artisan migrate:status
+
+create class controller
+->php artisan make:contoller [ControllerName]
+
+create model as well as migration table
+->php artisan make:model [modelname] -m
+
+Genarate project .env file app key [if your project download from github 🤔]
+->php artisan key:generate

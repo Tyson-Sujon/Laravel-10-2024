@@ -25,6 +25,6 @@ Route::get('/', function () {
 Route::get('about',[AboutController::class,'contact'])->name('about');
 Route::get('backend',[BackendController::class,'dashboard'])->name('dashboard');
 route::get('master',[MasterController::class,'master'])->name( 'master' );
-route::get('categories', [CategoryController::class, 'categories'] )-> name('categories');
+route::post('categories', [CategoryController::class, 'categories'] )-> name('categories');
 route::get('add_category',[CategoryController::class,'AddCategory'])->name('addcategory');
-route::post('view_category',[PostCategoryController::class,'PostCategory'])->name('viewcategory');
+route::post('view_category',[PostCategoryController::class,'PostCategory'])->name('view_category');
