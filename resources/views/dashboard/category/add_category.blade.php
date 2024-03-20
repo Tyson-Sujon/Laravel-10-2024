@@ -42,11 +42,11 @@
                                             <input type="text" class="form-control" id="cat_name"
                                                 placeholder="Add category" name="category_name">
                                         </div>
-                                        <div class="form-group">
+                                        {{-- <div class="form-group">
                                             <label for="Slug">Slug</label>
                                             <input type="text" class="form-control" id="Slug" placeholder="Add Slug"
                                                 name="slug">
-                                        </div>
+                                        </div> --}}
 
                                         <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">

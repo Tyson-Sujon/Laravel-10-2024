@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 15, 2024 at 08:59 PM
+-- Generation Time: Mar 20, 2024 at 08:23 AM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.1.25
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -34,6 +34,17 @@ CREATE TABLE `categories` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `categories`
+--
+
+INSERT INTO `categories` (`id`, `category_name`, `slug`, `created_at`, `updated_at`) VALUES
+(1, 'rice', 'rice-entity', '2024-03-18 22:55:02', '2024-03-18 22:55:02'),
+(2, 'dal', 'dal-x', '2024-03-19 22:17:32', '2024-03-19 22:17:32'),
+(3, 'ricea', 'ricea', '2024-03-19 22:18:51', '2024-03-19 22:18:51'),
+(4, 'baby', 'bay-x', '2024-03-19 22:59:09', '2024-03-19 22:59:09'),
+(5, 'New Item', 'new-item', '2024-03-19 23:31:55', '2024-03-19 23:31:55');
 
 -- --------------------------------------------------------
 
@@ -68,11 +79,11 @@ CREATE TABLE `migrations` (
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(1, '2014_10_12_000000_create_users_table', 1),
-(2, '2014_10_12_100000_create_password_reset_tokens_table', 1),
-(3, '2019_08_19_000000_create_failed_jobs_table', 1),
-(4, '2019_12_14_000001_create_personal_access_tokens_table', 1),
-(5, '2024_03_15_194218_create_categories_table', 2);
+(6, '2014_10_12_000000_create_users_table', 1),
+(7, '2014_10_12_100000_create_password_reset_tokens_table', 1),
+(8, '2019_08_19_000000_create_failed_jobs_table', 1),
+(9, '2019_12_14_000001_create_personal_access_tokens_table', 1),
+(10, '2024_03_19_034455_create_categories_table', 1);
 
 -- --------------------------------------------------------
 
@@ -174,7 +185,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
@@ -186,7 +197,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `personal_access_tokens`

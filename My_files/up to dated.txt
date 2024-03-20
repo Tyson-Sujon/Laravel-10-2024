@@ -30,9 +30,15 @@ jodi kono controller thakay page show korte hoi tobe controller function er view
 2:01 PM 14-Mar-24
 video name:dashboard integration & model
 video_Play_back --> 01:03:51
-last update
+last updated
 
 11:56 AM 15-Mar-24
 video name:dashboard integration & model
 video_Play_back --> 01:12:56
-last update
+last updated
+
+
+11:29 AM 20-Mar-24
+video name:Insert & View download from github and instrall project
+video_Play_back --> 00:34:07
+last updated
