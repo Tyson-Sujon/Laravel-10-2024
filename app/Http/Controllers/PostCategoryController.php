@@ -19,7 +19,8 @@ class PostCategoryController extends Controller
         //form er name=category_name & database er table attribute name =category_name obossio same hobe
         $cat->slug = Str::slug($request->category_name);
         $cat->save();
-        return back()->with('sucessful!');
+        return redirect('/view_category');
+        // return view(dashboard.category.view_category);
 
 
 
@@ -28,7 +29,7 @@ class PostCategoryController extends Controller
 
         // dd($_POST);
         //time up to
-        // 00:15:42
+
 
 
     }
