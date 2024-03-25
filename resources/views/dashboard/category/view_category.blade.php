@@ -38,15 +38,18 @@
                                             <th style="width: 10px">#</th>
                                             <th>Category Name</th>
                                             <th>Slug Name</th>
+                                            <th>Created At</th>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         @foreach ($cat as $category)
                                             <tr class="text-center">
-                                                <td>1.</td>
+                                                <td>{{ $loop->index + 1 }}</td>
                                                 <td>{{ $category->category_name }}</td>
                                                 <td>{{ $category->slug }}</td>
+                                                <td>{{ $category->created_at->format('d  /m / Y h:i:s a') }}({{ $category->created_at->diffForHumans() }})
+                                                </td>
                                                 <td>
                                                     <a class="btn btn-success mr-2" href="">Edit</a>
                                                     <a class="btn btn-danger" href="">Delete</a>

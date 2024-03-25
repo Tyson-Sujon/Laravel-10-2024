@@ -11,7 +11,6 @@ class CategoryController extends Controller
         // return view('dashboard.category.view_category', ['var'=> 'news', 'var_2'=>'mew']);
         $cat=Category::all();
         return view('dashboard.category.view_category',compact('cat'));
-
         // print_r($_POST);
     }
     function AddCategory(){

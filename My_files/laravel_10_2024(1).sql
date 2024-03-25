@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 20, 2024 at 08:23 AM
+-- Generation Time: Mar 25, 2024 at 08:43 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -44,7 +44,14 @@ INSERT INTO `categories` (`id`, `category_name`, `slug`, `created_at`, `updated_
 (2, 'dal', 'dal-x', '2024-03-19 22:17:32', '2024-03-19 22:17:32'),
 (3, 'ricea', 'ricea', '2024-03-19 22:18:51', '2024-03-19 22:18:51'),
 (4, 'baby', 'bay-x', '2024-03-19 22:59:09', '2024-03-19 22:59:09'),
-(5, 'New Item', 'new-item', '2024-03-19 23:31:55', '2024-03-19 23:31:55');
+(5, 'New Item', 'new-item', '2024-03-19 23:31:55', '2024-03-19 23:31:55'),
+(6, '200 tk den', '200-tk-den', '2024-03-23 02:03:07', '2024-03-23 02:03:07'),
+(7, 'nam jani na', 'nam-jani-na', '2024-03-24 02:07:01', '2024-03-24 02:07:01'),
+(8, 'Sonar BD', 'sonar-bd', '2024-03-24 02:08:44', '2024-03-24 02:08:44'),
+(9, '150 jon', '150-jon', '2024-03-24 02:26:08', '2024-03-24 02:26:08'),
+(10, 'samsung galaxy note 3', 'samsung-galaxy-note-3', '2024-03-24 22:18:53', '2024-03-24 22:18:53'),
+(11, 'hello world', 'hello-world', '2024-03-25 05:30:11', '2024-03-25 05:30:11'),
+(12, 'label art', 'label-art', '2024-03-25 07:41:39', '2024-03-25 07:41:39');
 
 -- --------------------------------------------------------
 
@@ -185,7 +192,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
