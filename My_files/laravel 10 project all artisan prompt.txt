@@ -13,5 +13,18 @@ create class controller
 create model as well as migration table
 ->php artisan make:model [modelname] -m
 
-Genarate project .env file app key [if your project download from github 🤔]
+
+if you clone project from github then you need to do 3 tasks
+
+for get vendor files and upgrated all project files open gitbash
+
+1. composer install [on that git folder]
+2. Genarate project .env file app key [if your project download from github 🤔]
 ->php artisan key:generate
+3. create .env from .env.example file
+
+
+
+
+
+

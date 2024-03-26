@@ -39,17 +39,22 @@ last updated
 
 
 11:29 AM 20-Mar-24
-video name:Insert & View download from github and instrall project
+video name:Insert & View download from github and install project
 video_Play_back --> 00:34:07
 last updated
 
 1:27 PM 24-Mar-24
-video name:Insert & View download from github and instrall project
+video name:Insert & View download from github and install project
 video_Play_back --> 00:57:42
 last updated
 
 1:43 PM 25-Mar-24
-video name:Insert & View download from github and instrall project
+video name:Insert & View download from github and install project
 video_Play_back --> 01:08:30
 N.B:Video ended- next class- class videos 29-CRUD
+last updated
+
+11:07 AM 26-Mar-24
+video name:CRUD(Delete, Edit & paginate)
+video_Play_back --> 00:31:06
 last updated
