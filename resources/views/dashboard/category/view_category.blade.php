@@ -57,16 +57,17 @@
                                             </tr>
                                         @endforeach
 
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.card-body -->
-                            {{-- <div class="text-right">
+                                        <pre></h3>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <!-- /.card-body -->
+                                                            {{-- <div class="text-right">
                                 {{ $cat->links() }}
                             </div> --}}
-                            {{ $cat->links() }}
+                                                            {{ $cat->links() }}
 
-                            {{-- <div class="card-footer clearfix">
+                                                            {{-- <div class="card-footer clearfix">
                                 <ul class="pagination pagination-sm m-0 float-right">
                                     <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
                                     <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -75,15 +76,15 @@
                                     <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
                                 </ul>
                             </div> --}}
-                        </div>
-                        <!-- /.card -->
-                    </div>
+                                                        </div>
+                                                        <!-- /.card -->
+                                                    </div>
 
 
-                </div>
-                <!-- /.row -->
-            </div><!-- /.container-fluid -->
-        </section>
-        <!-- /.content -->
-    </div>
+                                                </div>
+                                                <!-- /.row -->
+                                            </div><!-- /.container-fluid -->
+                                        </section>
+                                        <!-- /.content -->
+                                    </div>
 @endsection
