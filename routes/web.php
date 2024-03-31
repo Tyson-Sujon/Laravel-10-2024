@@ -22,9 +22,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('about',[AboutController::class,'contact'])->name('about');
-Route::get('backend',[BackendController::class,'dashboard'])->name('dashboard');
-route::get('master',[MasterController::class,'master'])->name( 'master' );
-route::get('view_category', [CategoryController::class, 'categories'] )-> name('categories');
-route::get('add_category',[CategoryController::class,'AddCategory'])->name('addcategory');
-route::post('view_category',[PostCategoryController::class,'PostCategory'])->name('view_category');
+Route::get('about', [AboutController::class, 'contact'])->name('about');
+Route::get('backend', [BackendController::class, 'dashboard'])->name('dashboard');
+route::get('master', [MasterController::class, 'master'])->name('master');
+route::get('view_category', [CategoryController::class, 'categories'])->name('categories');
+route::get('add_category', [CategoryController::class, 'AddCategory'])->name('addcategory');
+route::post('view_category', [PostCategoryController::class, 'PostCategory'])->name('view_category');
+route::get('delete_category/{id}', [CategoryController::class, 'DeleteCategory'])->name('delete_category');
