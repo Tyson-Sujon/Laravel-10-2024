@@ -26,5 +26,5 @@ Route - parameter pass
 ## Delete
 00:44:07
 00:46:53
-
-
+## Delete message show.
+00:57:34

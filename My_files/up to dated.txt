@@ -58,3 +58,9 @@ last updated
 video name:CRUD(Delete, Edit & paginate)
 video_Play_back --> 00:31:06
 last updated
+
+2:26 PM 01-Apr-24
+video name:CRUD(Delete, Edit & paginate)
+video_Play_back --> 00:57:34
+last updated 
+

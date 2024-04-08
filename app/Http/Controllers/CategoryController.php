@@ -24,8 +24,13 @@ class CategoryController extends Controller
     }
     function DeleteCategory($data)
     {
-        return Category::find($data);
-        // return Category::first();
+        $cat = Category::FindorFail($data); //json data jonno
+        $cat->delete();
+        return back();
+        // return Category::where('id', $data)->get(); //array data jonno
+        // return Category::where('id', $data)->first(); //json data jonno
         // return $data . '<pre>ok';
+
+
     }
 }
